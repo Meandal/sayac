@@ -11,7 +11,7 @@ let sayac = 0;
 
 artıButton.addEventListener("click",
 () => {
-    sayac = sayac + 1;
+    sayac = sayac  + 1;
     console.log("artı tıklandı",sayac);
     ekranEl.innerHTML=sayac;
 
@@ -21,6 +21,4 @@ eksiButton.addEventListener("click",
     sayac = sayac - 1;
     console.log("eksi tıklandı",sayac);
     ekranEl.innerHTML=sayac;
-
-
 });
